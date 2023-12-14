@@ -1,0 +1,29 @@
+.home .banner {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 810px;
+    height: 290px;
+    margin-top: -90px;
+    margin-left: -405px;
+}
+
+.home .banner .slogan1 {
+    color: var(--color-primary);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.home .banner h1 {
+    font-size: 130px;
+}
+
+.home .banner .slogan2 {
+    margin-bottom: 10px;
+}
+
+.home .banner span {
+    display: block;
+}

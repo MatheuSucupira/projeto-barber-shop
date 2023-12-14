@@ -1,0 +1,38 @@
+.gallery {
+    padding: 100px 0;
+    margin-bottom: 300px;
+    height: 100vh;
+    background-color: var(--color-primary-light);
+}
+
+.gallery h2 {
+    color: var(--color-secondary);
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.gallery img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gallery .gallery-wrapper {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 100vh;
+}
+
+.gallery .gallery-wrapper div {
+    border: 10px solid var(--color-primary);
+    margin: 6px;
+    width: 33%;
+}
+
+.gallery .gallery-wrapper div img {
+    width: 100%;
+}

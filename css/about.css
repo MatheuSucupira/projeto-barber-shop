@@ -1,0 +1,103 @@
+.about {
+    height: 100vh;
+    background-color: var(--color-primary);
+}
+
+.about .container {
+    display: flex;
+    padding: 0;
+}
+
+.about .container .timing {
+    background-image: url(/images/brush-big.jpg);
+    width: 33%;
+    padding: 30px;
+    color: white;
+    position: relative;
+    top: -45px;
+}
+
+.about .container .timing .overlay {
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.about .container .timing .overlay img {
+    width: 60px;
+}
+
+.about .container .timing .overlay h2 {
+    color: var(--color-primary);
+    text-transform: uppercase;
+    font-size: 20px;
+    border-bottom: 1px solid var(--color-primary);
+    width: fit-content;
+    margin: auto;
+}
+
+.about .container .timing .overlay .text {
+    margin-top: 30px;
+}
+
+.about .container .timing .overlay .text h3 {
+    color: grey;
+}
+
+.about .container .timing .overlay .text::after {
+    content: "•";
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+}
+
+.about .container .timing .overlay .text:last-of-type:after {
+    content: "|";
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+}
+
+.about .container .timing .overlay .icon1  {
+    width: 20px;
+    margin-top: 20px;
+}
+
+.about .container .timing .overlay .icon2  {
+    width: 32px;
+    margin-top: 12px;
+}
+
+.about .container .timing .overlay span  {
+    display: block;
+}
+
+.about .container .experience {
+    color: white;
+    padding: 70px;
+    background-image: url(/images/shave-brush.jpg);
+    background-repeat: no-repeat;
+    background-position: 415px;
+    background-position-y: 230px;
+}
+
+.about .container .experience h4 {
+    font-weight: 100px;
+    font-size: 55px;
+}
+
+.about .container .experience h4::after {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #a38f78;
+}
+
+.about .container .experience .text1 {
+    width: 360px;
+}
+
+.about .container .experience .text1 div {
+    margin-top: 20px;
+}
