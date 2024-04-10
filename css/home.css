@@ -1,0 +1,42 @@
+.home {
+    height: 100vh;
+    background-image: url(/images/bg-home.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.home .header {
+    padding: 40px 0;
+}
+
+.home .header .nav {
+    display: flex;
+    justify-content: center;
+}
+
+.home .header .nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.home .header .nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150PX;
+}
+
+.home .header .nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.home .header .nav ul li a:hover {
+    color: var(--color-primary);
+    border-bottom: 1px solid var(--color-primary);
+}

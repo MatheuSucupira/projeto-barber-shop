@@ -1,0 +1,53 @@
+.location {
+    padding: 100px 0;
+    height: 100vh;
+    background-image: url(/images/bg-location.jpg);
+    background-size: cover;
+}
+
+.location .head {
+    background-color: #191919;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.location .head .info {
+    display: flex;
+}
+
+.location .head .info .icon {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid var(--color-primary);
+    border-radius: 50%;
+    padding: 26px;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+}
+
+.location .head .info .text {
+    margin: auto 0;
+}
+
+.location .head .info .text span:first-child {
+    color: silver;
+    display: block;
+    font-size: 12px;
+}
+
+.location .head .info .text span:last-child {
+    color: white;
+    display: block;
+    font-size: 14px;
+}
+
+.location .map {
+    width: 100%;
+}
+
+.location .map iframe {
+    width: 100%;
+}
