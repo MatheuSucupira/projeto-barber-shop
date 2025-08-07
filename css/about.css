@@ -9,7 +9,7 @@
 }
 
 .about .container .timing {
-    background-image: url(/images/brush-big.jpg);
+    background-image: url(images/brush-big.jpg);
     width: 33%;
     padding: 30px;
     color: white;
@@ -75,7 +75,7 @@
 .about .container .experience {
     color: white;
     padding: 70px;
-    background-image: url(/images/shave-brush.jpg);
+    background-image: url(images/shave-brush.jpg);
     background-repeat: no-repeat;
     background-position: 415px;
     background-position-y: 230px;
